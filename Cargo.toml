@@ -1,0 +1,15 @@
+[package]
+name = "prog-view"
+version = "0.1.0"
+edition = "2021"
+authors = ["Dmitriy Mayorov<MayorDi@yandex.ru>"]
+readme = "README.md"
+license = "Apache-2.0"
+repository = ""
+homepage = ""
+
+[dependencies]
+getset = "0.1.2"
+
+[dev-dependencies]
+image = { version = "0.25.1", features = ["png"] }
